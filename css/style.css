@@ -98,7 +98,7 @@ body{
     }
 
     .accordion .content-container.active .answer{
-        height: 70px;
+        height: 100px;
     }
         
 }
