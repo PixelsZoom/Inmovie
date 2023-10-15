@@ -5,11 +5,12 @@
 }
 
 body{
-    background-color: rgb(255, 110, 6);
-    height: 100vh;
+    background-color: #777;
+    height: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+    margin-top: 20px;
 }
 
 .accordion{
@@ -44,7 +45,7 @@ body{
 
 .accordion .content-container .answer{
     padding-top: 15px;
-    font-family: Verdana;
+    font-family: m;
     font-weight: 300;
     font-size: 22px;
     line-height: 1.5;
@@ -71,19 +72,18 @@ body{
 
 @media (max-width: 500px) {
     .accordion{
-        width: 100%;
-        background: white;
-        padding: 20px;
-        border-radius: 30px;
+        padding: 10px;
+        border-radius: 7px;
+        margin: 10px 10px 10px 0;
     }
 
     .accordion .accordion-title{
-        margin-bottom: 25px;
+        margin-bottom: 22px;
     }
     
     .accordion .content-container .question{
         padding: 15px 0;
-        font-size: 22px;
+        font-size: 20px;
     } 
     
     .accordion .content-container .question::after{
@@ -92,8 +92,8 @@ body{
     }
     
     .accordion .content-container .answer{
-        padding-top: 12px;
-        font-size: 18px;
+        padding-top: 10px;
+        font-size: 15px;
     }
         
 }
