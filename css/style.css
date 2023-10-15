@@ -45,7 +45,7 @@ body{
 
 .accordion .content-container .answer{
     padding-top: 15px;
-    font-family: m;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 300;
     font-size: 22px;
     line-height: 1.5;
@@ -71,21 +71,15 @@ body{
 }
 
 @media (max-width: 500px) {
-
-    body{
-        margin: 10px 10px 10px 0;
-        background-color: #777;
-    }
     .accordion{
-        width: auto;
-        margin: 0 10px;
-        padding: 8px;
+        width: 100%;
+        padding: 20px;
         border-radius: 7px;
         
     }
 
     .accordion .accordion-title{
-        margin-bottom: 22px;
+        margin: 15px 22px 0 0;
     }
     
     .accordion .content-container .question{
@@ -101,6 +95,10 @@ body{
     .accordion .content-container .answer{
         padding-top: 10px;
         font-size: 15px;
+    }
+
+    .accordion .content-container.active .answer{
+        height: 70px;
     }
         
 }
